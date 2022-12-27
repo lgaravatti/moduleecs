@@ -15,5 +15,4 @@ variable "vpc_id" {
 variable "subnet_id" { 
   description = "ID Subnet1"
   type = list
-  default = [["subnet-xxxx1", "subnet-xxxx2"]]
 } 
