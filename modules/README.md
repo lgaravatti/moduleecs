@@ -1,0 +1,1 @@
+Repositorio ECS Task com FARGATE e FARGATE SPOT
