@@ -7,6 +7,11 @@ module "ecs-cluster" {
   vpc_id = var.vpc_id
   subnet_id = var.subnet_id
 }
+
+# Example for output in module ecs-cluster
+output {
+  value = module.ecs-cluster.lb_arn
+}
 resource "aws_ecs_task_definition" "task" {
   family                   = "service"
   network_mode             = "awsvpc"
